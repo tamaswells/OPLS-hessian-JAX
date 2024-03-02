@@ -1,2 +1,3 @@
 # OPLS-hessian-JAX
 OPLS-hessian-JAX
+利用可微分分子力场（Differentiable Molecular Force Field, DMFF）框架编写了OPLS-AA能量、Hessian、频率的模块
