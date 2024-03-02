@@ -1,0 +1,93 @@
+<ForceField>
+	<Info>
+		<DataGenerated>2023-09-27 11:45:35.442290</DataGenerated>
+		<Reference>Modified from itp2xml by NanXu (tamas@zju.edu.cn)</Reference>
+	</Info>
+	<AtomTypes>
+		<Type mass="12.011000" element="C" class="opls_135" name="opls_135" />
+		<Type mass="1.008000" element="H" class="opls_140" name="opls_140" />
+		<Type mass="12.011000" element="C" class="opls_136" name="opls_136" />
+	</AtomTypes>
+	<Residues>
+		<Residue name="UNK">
+			<Atom charge="-0.18000000" name="C1" type="opls_135" />
+			<Atom charge="0.06000000" name="H2" type="opls_140" />
+			<Atom charge="0.06000000" name="H3" type="opls_140" />
+			<Atom charge="0.06000000" name="H4" type="opls_140" />
+			<Atom charge="-0.12000000" name="C5" type="opls_136" />
+			<Atom charge="0.06000000" name="H6" type="opls_140" />
+			<Atom charge="0.06000000" name="H7" type="opls_140" />
+			<Atom charge="-0.12000000" name="C8" type="opls_136" />
+			<Atom charge="0.06000000" name="H9" type="opls_140" />
+			<Atom charge="0.06000000" name="H10" type="opls_140" />
+			<Atom charge="-0.12000000" name="C11" type="opls_136" />
+			<Atom charge="0.06000000" name="H12" type="opls_140" />
+			<Atom charge="0.06000000" name="H13" type="opls_140" />
+			<Atom charge="-0.12000000" name="C14" type="opls_136" />
+			<Atom charge="0.06000000" name="H15" type="opls_140" />
+			<Atom charge="0.06000000" name="H16" type="opls_140" />
+			<Atom charge="-0.18000000" name="C17" type="opls_135" />
+			<Atom charge="0.06000000" name="H18" type="opls_140" />
+			<Atom charge="0.06000000" name="H19" type="opls_140" />
+			<Atom charge="0.06000000" name="H20" type="opls_140" />
+			<Bond atomName1="H2" atomName2="C1" />
+			<Bond atomName1="C1" atomName2="H3" />
+			<Bond atomName1="C1" atomName2="H4" />
+			<Bond atomName1="C1" atomName2="C5" />
+			<Bond atomName1="C5" atomName2="H6" />
+			<Bond atomName1="C5" atomName2="H7" />
+			<Bond atomName1="C5" atomName2="C8" />
+			<Bond atomName1="C8" atomName2="H9" />
+			<Bond atomName1="C8" atomName2="H10" />
+			<Bond atomName1="C8" atomName2="C11" />
+			<Bond atomName1="C11" atomName2="H12" />
+			<Bond atomName1="C11" atomName2="H13" />
+			<Bond atomName1="C11" atomName2="C14" />
+			<Bond atomName1="C14" atomName2="H15" />
+			<Bond atomName1="C14" atomName2="H16" />
+			<Bond atomName1="C14" atomName2="C17" />
+			<Bond atomName1="C17" atomName2="H18" />
+			<Bond atomName1="C17" atomName2="H19" />
+			<Bond atomName1="C17" atomName2="H20" />
+		</Residue>
+	</Residues>
+	<HarmonicBondForce>
+		<Bond type1="opls_135" type2="opls_136" k="224262.400000" length="0.15290" />
+		<Bond type1="opls_135" type2="opls_140" k="284512.000000" length="0.10900" />
+		<Bond type1="opls_136" type2="opls_136" k="224262.400000" length="0.15290" />
+		<Bond type1="opls_136" type2="opls_140" k="284512.000000" length="0.10900" />
+	</HarmonicBondForce>
+	<HarmonicAngleForce>
+		<Angle type1="opls_136" type2="opls_136" type3="opls_136" angle="1.9669860669976094" k="488.273000" />
+		<Angle type1="opls_140" type2="opls_135" type3="opls_140" angle="1.8814649336498872" k="276.144000" />
+		<Angle type1="opls_136" type2="opls_135" type3="opls_140" angle="1.932079481957723" k="313.800000" />
+		<Angle type1="opls_136" type2="opls_136" type3="opls_140" angle="1.932079481957723" k="313.800000" />
+		<Angle type1="opls_135" type2="opls_136" type3="opls_140" angle="1.932079481957723" k="313.800000" />
+		<Angle type1="opls_140" type2="opls_136" type3="opls_140" angle="1.8814649336498872" k="276.144000" />
+		<Angle type1="opls_135" type2="opls_136" type3="opls_136" angle="1.9669860669976094" k="488.273000" />
+	</HarmonicAngleForce>
+	<PeriodicTorsionForce>
+		<Proper type1="opls_136" type2="opls_136" type3="opls_136" type4="opls_136" periodicity1="1" phase1="0" k1="2.7196" periodicity2="2" phase2="0" k2="0.1046" periodicity3="3" phase3="0" k3="0.4184" periodicity4="4" phase4="0" k4="0.0" />
+		<Proper type1="opls_136" type2="opls_136" type3="opls_135" type4="opls_140" periodicity1="1" phase1="0" k1="0.0" periodicity2="2" phase2="0" k2="0.0" periodicity3="3" phase3="0" k3="0.6276" periodicity4="4" phase4="0" k4="0.0" />
+		<Proper type1="opls_140" type2="opls_136" type3="opls_136" type4="opls_140" periodicity1="1" phase1="0" k1="0.0" periodicity2="2" phase2="0" k2="0.0" periodicity3="3" phase3="0" k3="0.6276" periodicity4="4" phase4="0" k4="0.0" />
+		<Proper type1="opls_136" type2="opls_136" type3="opls_136" type4="opls_140" periodicity1="1" phase1="0" k1="0.0" periodicity2="2" phase2="0" k2="0.0" periodicity3="3" phase3="0" k3="0.6276" periodicity4="4" phase4="0" k4="0.0" />
+		<Proper type1="opls_135" type2="opls_136" type3="opls_136" type4="opls_140" periodicity1="1" phase1="0" k1="0.0" periodicity2="2" phase2="0" k2="0.0" periodicity3="3" phase3="0" k3="0.6276" periodicity4="4" phase4="0" k4="0.0" />
+		<Proper type1="opls_135" type2="opls_136" type3="opls_136" type4="opls_136" periodicity1="1" phase1="0" k1="2.7196" periodicity2="2" phase2="0" k2="0.1046" periodicity3="3" phase3="0" k3="0.4184" periodicity4="4" phase4="0" k4="0.0" />
+		<Proper type1="opls_140" type2="opls_135" type3="opls_136" type4="opls_140" periodicity1="1" phase1="0" k1="0.0" periodicity2="2" phase2="0" k2="0.0" periodicity3="3" phase3="0" k3="0.6276" periodicity4="4" phase4="0" k4="0.0" />
+		<Proper type1="opls_140" type2="opls_136" type3="opls_135" type4="opls_140" periodicity1="1" phase1="0" k1="0.0" periodicity2="2" phase2="0" k2="0.0" periodicity3="3" phase3="0" k3="0.6276" periodicity4="4" phase4="0" k4="0.0" />
+	</PeriodicTorsionForce>
+	<NonbondedForce coulomb14scale="0.5" lj14scale="1.0">
+		<UseAttributeFromResidue name="charge" />
+		<Atom epsilon="0" sigma="0.35" type="opls_135" />
+		<Atom epsilon="0" sigma="0.25" type="opls_140" />
+		<Atom epsilon="0" sigma="0.35" type="opls_136" />
+	</NonbondedForce>
+	<LennardJonesForce lj14scale="0.5" useDispersionCorrection="True">
+		<Atom epsilon="0.276144" sigma="0.35" type="opls_135" />
+		<Atom epsilon="0.12552" sigma="0.25" type="opls_140" />
+		<Atom epsilon="0.276144" sigma="0.35" type="opls_136" />
+		<NBFixPair epsilon="0.18617624682004952" sigma="0.2958039891549808" type1="opls_135" type2="opls_140" />
+		<NBFixPair epsilon="0.276144" sigma="0.35" type1="opls_135" type2="opls_136" />
+		<NBFixPair epsilon="0.18617624682004952" sigma="0.2958039891549808" type1="opls_140" type2="opls_136" />
+	</LennardJonesForce>
+</ForceField>
